@@ -1,0 +1,38 @@
+<resources>
+
+    //      ......Login Page........
+
+    <string name="app_name">INDOOR Planting APP</string>
+    <string name="LOGIN">LOG IN</string>
+    <string name="SIGNUPOnItsPage">SIGN UP</string>
+    <string name="SIGNUP">NEW USER SIGN UP</string>
+    <string name="LoginIMG">IMAGE</string>
+    <string name="TEXTINSIGNUPBUTTON">create a new account</string>
+    <string name="have_account">Already have an account? Login</string>
+
+    //     ........Signup Page Details........
+
+    <string name="Name"> Username</string>
+    <string name="ConfirmPassword">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+    //      ........FirstPage.........
+    <string name="home">Home</string>
+    <string name="identifier">Plant Identifier</string>
+    <string name="searchaplant">Search for a plant</string>
+    <string name="Seasonalplant">Seasonal plants</string>
+    <string name="plantcalander">Gardening calendar</string>
+    <string name="plantlocation">Where to Plant?</string>
+    <string name="differentPlants">Plants best for you</string>
+
+    //      .........Search for plant........
+    <string name="Slogan">"Bringing Nature Indoors, Digitally"</string>
+    <string name="Bamboo">Bamboo Plant</string>
+    <string name="searchview">SearchView</string>
+    <string name="Lemon">Lemon tree</string>
+    <string name="Jasmine">Jasmine flower</string>
+    <string name="ZZPlant">ZZ Plant</string>
+    <string name="BambooDes">Goodluck plant</string>
+
+</resources>

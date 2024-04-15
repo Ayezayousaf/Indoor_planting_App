@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "270845557362",
+    "project_id": "indoor-planting-app",
+    "storage_bucket": "indoor-planting-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270845557362:android:67bdbb14546ec596dee0eb",
+        "android_client_info": {
+          "package_name": "com.example.plantingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6QZRPlu6R2FY0OsWHJGdAQWH-inhsZZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_marginTop="10dp"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:textAlignment="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Indoor Planting"
+        app:titleMarginStart="90dp"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:backgroundTint="@color/Green"
+        app:titleTextColor="@color/white" />
+
+    <!-- Left Image -->
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/person"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/toolbar" />
+
+    <!-- Right Image -->
+    <ImageView
+        android:id="@+id/right_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/hamburg"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/toolbar" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Green"
+            android:text="@string/searchaplant"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_columnSpan="2"
+            android:onClick="SearchPlant"
+            />
+
+        <Button
+            android:id="@+id/identifier_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Green"
+            android:text="@string/identifier"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/plant_Calander_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Green"
+            android:text="@string/plantcalander"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/seasonal_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="2"
+            android:backgroundTint="@color/Green"
+            android:text="@string/Seasonalplant"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/plant_Location_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Green"
+            android:text="@string/plantlocation"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/plant_Choose_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Green"
+            android:text="@string/differentPlants"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
