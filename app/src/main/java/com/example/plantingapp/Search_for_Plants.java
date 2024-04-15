@@ -18,6 +18,7 @@ public class Search_for_Plants extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         searchView=findViewById(R.id.searchView);
         listView=findViewById(R.id.listView);
+        searchView.clearFocus();
 
     }
 }

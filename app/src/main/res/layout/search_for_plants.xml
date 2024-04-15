@@ -6,16 +6,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <SearchView
+    <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:hint="@string/searchview"
+        android:background="@drawable/search_view_bg"
+        app:queryHint="@string/searchview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:queryHint="Search" />
+        app:iconifiedByDefault="false"
+        />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView1"
