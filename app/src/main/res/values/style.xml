@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:shadowColor">#006837</item>
+        <item name="android:shadowRadius">2</item>
     </style>
 </resources>

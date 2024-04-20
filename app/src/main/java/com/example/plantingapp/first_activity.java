@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class first_activity  extends AppCompatActivity {
@@ -26,6 +25,27 @@ public class first_activity  extends AppCompatActivity {
 
     public void SearchPlant(View view) {
         Intent intent=new Intent(first_activity.this,Search_for_Plants.class);
+        startActivity(intent);
+    }
+
+    public void seasonalPlants(View view) {
+        Intent intent=new Intent(first_activity.this,seasonal_plants.class);
+        startActivity(intent);
+    }
+
+    public void plantIdentifier(View view) {
+        Intent intent=new Intent(first_activity.this,plant_identifier.class);
+        startActivity(intent);
+    }
+
+    public void GardeningCalander(View view) {
+        Intent intent=new Intent(first_activity.this, gardening_calendar.class);
+        startActivity(intent);
+    }
+
+    public void whereToPlant(View view) {
+
+        Intent intent=new Intent(first_activity.this, places_to_plant.class);
         startActivity(intent);
     }
 }

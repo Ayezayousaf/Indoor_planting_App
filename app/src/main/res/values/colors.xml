@@ -2,10 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="DarkGreen">#006837</color>
     <color name="Green">#62bd69</color>
-    <color name="Gray">#727372</color>
-    <color name="Red">#F11E1E</color>
-    <color name="DarkestGreen">#0C3823</color>
+    <color name="lightGreen">#A1ECA4</color>
     <color name="GreyGreen">#848F65</color>
+    <color name="Gray">#727372</color>
+    <color name="DarkGreen">#076137</color>
+    <color name="DarkestGreen">#0C3823</color>
+    <color name="Red">#F11E1E</color>
 </resources>

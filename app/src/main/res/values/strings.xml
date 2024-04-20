@@ -19,8 +19,8 @@
 
     //      ........FirstPage.........
     <string name="home">Home</string>
-    <string name="identifier">Plant Identifier</string>
-    <string name="searchaplant">Search for a plant</string>
+    <string name="identifier">Plant identifier</string>
+    <string name="searchaplant">Search for plants</string>
     <string name="Seasonalplant">Seasonal plants</string>
     <string name="plantcalander">Gardening calendar</string>
     <string name="plantlocation">Where to Plant?</string>
@@ -34,5 +34,6 @@
     <string name="Jasmine">Jasmine flower</string>
     <string name="ZZPlant">ZZ Plant</string>
     <string name="BambooDes">Goodluck plant</string>
+    <string name="toolbar">Toolbar</string>
 
 </resources>
